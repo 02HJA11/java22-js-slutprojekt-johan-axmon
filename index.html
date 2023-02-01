@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <form class="userSearch">
+        <label for="search" class="text">Image text:</label>
+        <input class="search" type="text" placeholder="Search" class="inputField">
+        <label for="amount" class="text">Choose amount:</label>
+        <select class="amount" name="amount" class="inputField">
+            <option class="amount" value="1" selected>1</option>
+            <option class="amount" value="5">5</option>
+            <option class="amount" value="10">10</option>
+            <option class="amount" value="20">20</option>
+        </select>
+
+     <label for="size" class="text">Choose size:</label>
+<select class="size" name="size" class="inputField">
+  <option class="sizeInput" value="w">small</option>
+  <option class="sizeInput" value="c">medium</option>
+  <option class="sizeInput" value="b">large</option>
+ 
+</select>
+
+        <button id="search">Search images</button>
+    </form>
+</nav>
+    <div id="imageDisplay"></div>
+</body>
+</html>
